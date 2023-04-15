@@ -107,6 +107,8 @@ app.post("/alunos/novo", (req, res) => {
 
 // Rota para deletar aluno
 
+// Iniciei o Desafio 2, mas não terminei
+
 app.delete("/alunos/deletar/:index", (req, res) => {
     const index = parseInt(req.params.index);
 
